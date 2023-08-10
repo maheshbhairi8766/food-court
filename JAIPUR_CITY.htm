@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar
+        {    border: 5px solid black;
+            
+            background-repeat: no-repeat;
+             height: 700px;
+    width: 100%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-top: 51px;
+    /* margin-bottom: 26px; */
+    
+
+        }
+        #bd{
+            margin: 0;
+            background-image:url('whiteBG.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #navbar img{
+            width: 241px;
+    height: 181px;
+    border-radius: 11px;
+   
+    border-radius: 0px;
+    /* border: 3px solid green; */
+        }
+        .caption{
+            border: 2px solid black;
+    width: 200px;
+    height: 26px;
+    box-shadow: 3px 2px 4px 6px grey;
+        }
+        #Box{
+            /*border: 3px solid blue;*/
+           /* background-image: url('bench.jpg');*/
+           background-color:aliceblue;
+            transition: 5s;
+           
+
+    height: 212px;
+    width: 100%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-left:10 px;
+    margin-top: 24px;
+   
+        }
+    
+        
+        #hotel1{
+            border: 3px solid orange;
+    height: 398px;
+    width: 16%;
+    /* background: black; */
+    border-radius: 0px;
+    margin-left: 42px;
+    margin-top: 151px;
+   
+        }
+        #hotel1 img{
+            width: 100%;
+        }
+        #hotel3 img{
+            width: 100%;
+        }
+        #hotel2 img{
+            width: 100%;
+        }
+        #hotel4 img{
+            width: 100%;
+        }
+        #hotel5 img{
+            width: 100%;
+        }
+        #hotel2{
+            border: 3px solid orange;
+    height: 394px;
+            
+    width: 16%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-left: 328px;
+    margin-top: -402px;
+        }
+        #hotel3{
+            border: 3px solid orange;
+    height: 392px;
+    width: 16%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-left: 615px;
+    margin-top: -398px;
+   
+        }
+        #hotel4{
+            border: 3px solid  orange;
+    height: 392px;
+    width: 16%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-left: 903px;
+    margin-top: -398px;
+    
+        }
+        #hotel5{
+            border: 3px solid  orange;
+    height: 392px;
+    width: 16%;
+    /* background: black; */
+    border-radius: -4px;
+    margin-left: 1192px;
+    margin-top: -398px;
+    
+        }
+        #navbar h1{
+            height: 25px;
+    width: 126px;
+    margin-top: -53px;
+    margin-left: 59px;
+    font-size: 25px;
+    color: white;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    text-decoration: underline;
+    box-shadow: 3px 2px 4px 6px papayawhip;
+        }
+        #navbar h2{
+            height: 32px;
+    /* width: 10px; */
+    margin-top: -28px;
+    margin-left: 5px;
+    color: green;
+    /* font-size: 25px; */
+    /* border: 2px solid red; */
+    
+        }
+        #navbar h3{
+            height: 53px;
+    width: 126px;
+    margin-top: 2px;
+    /* margin-left: 59px; */
+    font-size: 25px;
+    /* color: white; */
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    /* box-shadow: 3px 2px 4px 6px papayawhip; */
+    /* box-shadow: 3px 2px 4px 6px papayawhip; */
+        }
+        #navbar h4{
+            height: 49px;
+    margin-top: -47px;
+    /* margin-left: 59px; */
+    font-size: 17px;
+    font-style: italic;
+    /* color: white; */
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    /* box-shadow: 3px 2px 4px 6px papayawhip; */
+    /* box-shadow: 3px 2px 4px 6px papayawhip; */
+        }
+        #star
+        {       height: 49px;
+    margin-top: -15px;
+    margin-left:10px;
+    /* margin-left: 59px; */
+    font-size: 17px;
+    font-style: italic;
+    /* color: white; */
+    /* border: 2px solid red; */
+    border-radius: 5px;
+
+        }
+        #sub{
+            margin-left: 57px;
+    margin-top: 6px;
+    color: red;
+    border-color: blue;
+        }
+        .checked
+        {color:orange;}
+        #caption{
+            margin-left: 47px;
+    margin-top: 60px;
+    margin-bottom: -73px;
+    font-size: 43px;
+        }
+
+    </style>
+</head>
+<body id="bd">
+    <div id="navbar">
+        <div id="caption">Available food restrurants or hotels in JAIPUR</div>
+
+    <div id="hotel1">
+        <img src="ADDA.jpg" width="450px" height="200px">
+        <h1> ADDA</h1>
+        <div id="Box">
+            <h3>Address:: </h3><h4>udaipur ,opposite to railway station</h4>
+            <h2>Customer Rattings</h2>
+            <div id="star">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star"></span>
+            </div>
+                <div id="sub">
+                    <button type="submit" form="form1" value="submit"> <a href="oldhotel.htm">continue to order</a></button>
+                </div>
+        </div>
+        
+    </div>
+
+    <div id="hotel2">
+        <img src="HANDI_HOTEL.jpg">
+        <h1>HANDI_HOTEL</h1>
+        <div id="Box">
+            <h3>Address:: </h3><h4>Bharathpur ,near by relance mart</h4>
+            <h2>Customer Rattings</h2>
+            
+            <div id="star">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star"></span>
+                </div>
+                <div id="sub">
+                    <button type="submit" form="form1" value="submit">continue to order</button>
+                </div>
+           
+        </div>
+    </div>
+
+    <div id="hotel3">
+        <img src="Madina_Hotel.jpg" width="450px" height="200px">
+        <h1>MAMUS</h1>
+        <div id="Box">
+            <h3>Address:: </h3>
+            <h4>SHIVAJI NAGAR,opposite to paper company</h4>
+            <h2>Customer Rattings</h2>
+            <div id="star">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+            </div>
+            <div id="sub">
+                <button type="submit" form="form1" value="submit">continue to order</button>
+          </div>
+        </div>
+    </div>
+
+
+    <div id="hotel4">
+        <img src="STARDUST.jpg" width="450px" height="200px">
+        <h1>STARDUST</h1>
+        <div id="Box">
+            <h3>Address::</h3>
+            <h4>Bapu Nagar,near by TCS company</h4 >
+                <h2>Customer Rattings</h2>
+                <div id="star">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star "></span>
+                <span class ="fa fa-star"></span>
+                </div>
+                <div id="sub">
+                    <button type="submit" form="form1" value="submit">continue to order</button>
+             </div>
+          </div>
+      </div>
+        <div>
+        <div id="hotel5">
+            <img src="TAN_SUKH.jpeg" width="450px" height="200px">
+            <h1>TAN_SUKH</h1>
+            <div id="Box">
+                <h3>Address::</h3><h4> Hasanpura, Besides gachibouli </h4>
+                <h2>Customer Rattings</h2>
+                <div id="star">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                <span class ="fa fa-star checked"></span>
+                </div>
+                <div id="sub">
+                    <button type="submit" form="form1" value="submit">continue to order</button>
+                </div>
+            
+
+    </div>
+    </div>
+</body>
+</html>

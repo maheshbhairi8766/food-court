@@ -1,0 +1,55 @@
+/*Navbar*/
+#Container{
+    position: relative;  /*Must*/
+    display: flex;
+    flex-direction: column ;
+    /*border: 3px solid  black;*/
+}
+#Container div{
+    position: relative;  /*Must*/
+    display: flex;
+    flex-direction: column ;
+    /*border: 3px solid  black;*/
+}
+#Container ul li {
+    margin: 2px -19px;
+    padding: 3px 30px;
+    list-style: none;
+    font-size: 1.2rem;
+    /* border: 2px solid gold; */
+}
+#Container img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: 1px 165px;
+    border-radius: 51px;
+    justify-content: center;
+}
+#Container ul{
+    display: flex;
+    margin: -5px 191px;
+}
+/*Home page*/
+#service{
+    overflow: none;
+    margin: 208px 6px 44px 0px;
+}
+#Boxes{
+    display: flex;
+    overflow: none;
+    flex-direction: column;
+}
+#clients{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+#Container{
+    /*Must*/
+   display: flex;
+   /*border: 3px solid  black;*/
+   position: sticky; 
+   top: 0px;
+}

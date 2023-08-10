@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#Container{
+     /*Must*/
+    display: flex;
+    /*border: 3px solid  black;*/
+    position: sticky; 
+    top: 0px;
+}
+#Container img{
+    width: 50px;
+    height: 50px;
+    margin: -2px 24px;
+    border-radius: 51px
+}
+#Container ul{
+    display: flex;
+    margin: 5px 324px;
+    align-items: center;
+    justify-content: center;
+}
+#Container ul li{
+    margin: 5px 19px;
+    padding: 4px 10px;
+    list-style: none;
+    font-size: 1.2rem;
+    /*border: 2px solid gold;*/
+}
+#Container ul li a{
+    color: rgb(252, 247, 247);
+    display: block;
+    padding: 6px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#Container ul li a:hover{
+      border-radius: 10px;  
+      color: white;
+      background-color:brown;
+      
+}
+#Container::before{
+    position:absolute;
+    content: "";
+    background-color:rgb(10, 10, 10);
+    top: 0px;
+    left: 0px;
+    height: 54px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+/*Selction home*/
+#Home{
+    overflow: none;
+    color: white;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#Home h1{
+    padding: 9px 7px;
+    margin: 27px 8px 3px -1px;
+    font-size: 2.5rem;
+}
+#Home p{    font-size: 1rem;
+    margin: 3px;
+}
+#Home::before{
+    position: absolute;
+    content: "";
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 225%;
+    width: 100%;
+    margin-bottom: 100px;
+     z-index: -1;
+     opacity: 0.9;
+}
+.btn{
+    margin: 3px;
+    padding: 3px 1px;
+    font-size: 1rem;
+    color: white;
+    border: 3px solid brown;
+    border-radius: 10px; 
+    background-color: brown;
+    cursor: pointer;
+}
+/*Section service*/
+#service{
+    margin: 104px 6px 44px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#Boxes{
+    overflow: none;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 28px;
+    height: 209px;
+    width: 413px;
+    margin: 20px 8px;
+    padding: 8px 2px;
+}
+#service h1{
+    color: red;
+    margin: -11px 596px;
+}
+
+.box p{
+    text-align: center;
+}
+#Box1 img{
+    height: 120px;
+    width: 160px;
+}
+#Box2 img{
+    height: 120px;
+    width: 160px;
+}
+#Box3 img{
+    height: 120px;
+    width: 160px;
+}
+/*Clients*/
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Client{
+    margin: 50px 2px;
+    position:relative;
+}
+#clients img{
+    height: 83px;
+    width: 90px;
+}
+#clients div{
+    margin: 3px 14px;
+}
+#Client h1{
+    display: flex;
+    justify-content: center;
+    margin: 3px 60px;
+    font-size: 1.7rem;
+}
+#Client::before{
+    position: relative;
+    background: url('box2.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+#Contact{
+    position: relative;
+    margin:3px 2px;
+    height: 56%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Contact h1{
+    margin: 3px 600px;
+    font-size: 1.7rem;
+}
+.contactus div{
+    margin: -5px 2px;
+    padding: 3px 2px;
+    font-size: 1rem;
+}
+#Contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('contact.jpg')no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+footer{
+    height: 500px;
+    margin: 78px;
+    padding: 3px 2px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    display: center;
+}
